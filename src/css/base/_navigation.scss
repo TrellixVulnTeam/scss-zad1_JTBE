@@ -1,0 +1,27 @@
+nav {
+    text-align: center;
+    margin-top: 6em;
+    background-color: $color-background-nav;
+    height: 3.75em;
+    padding: 0px 40px;
+  }
+  
+  .main-nav {
+    li {
+      display: inline-block;
+      padding: 5px 30px;
+      font-weight: 400;
+      font-size: 1.2em;
+      margin: 10px;
+  
+      a {
+        color: $color-link;
+        text-decoration: none;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  

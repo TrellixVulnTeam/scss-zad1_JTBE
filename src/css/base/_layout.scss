@@ -1,0 +1,29 @@
+body {
+  font-family: $font-family;
+  background-color: $color-background-body;
+  color: $color-main;
+  margin: 0 auto;
+}
+
+.half-column {
+  display: inline-block;
+  width: 40%;
+  padding: 50px 0px 10px 20px;
+
+  .right {
+    float: right;
+  }
+}
+
+.landing-copy {
+  margin-left: 70px;
+
+  p {
+    font-size: 1.3em;
+    line-height: 1.4em;
+  }
+  h1 {
+    font-size: 3em;
+    line-height: 1.2em;
+  }
+}

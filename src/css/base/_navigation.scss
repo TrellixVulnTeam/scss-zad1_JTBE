@@ -1,27 +1,30 @@
+@import "../utils/_variables";
+@import "../utils/_functions";
+@import "../utils/_mixins";
+
 nav {
-    text-align: center;
-    margin-top: 6em;
-    background-color: $color-background-nav;
-    height: 3.75em;
-    padding: 0px 40px;
-  }
-  
-  .main-nav {
-    li {
-      display: inline-block;
-      padding: 5px 30px;
-      font-weight: 400;
-      font-size: 1.2em;
-      margin: 10px;
-  
-      a {
-        color: $color-link;
-        text-decoration: none;
-  
-        &:hover {
-          text-decoration: underline;
-        }
+  @include paddingPx(0, 40);
+  background-color: $color-secondary;
+  margin-top: 6em;
+  height: 3.75em;
+  text-align: center;
+}
+
+.main-nav {
+  li {
+    @include paddingPx(5, 30);
+    margin: pxToRem(10);
+    font-size: 1.2em;
+    font-weight: 400;
+    display: inline-block;
+
+    a {
+      color: $color-link;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
       }
     }
   }
-  
+}

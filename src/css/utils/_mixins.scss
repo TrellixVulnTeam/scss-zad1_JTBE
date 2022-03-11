@@ -1,0 +1,9 @@
+@import "../utils/_variables";
+@import "../utils/_functions";
+
+@mixin border($color: none) {
+  border: pxToRem(2) solid $color;
+}
+@mixin paddingPx($top: null, $right: null) {
+    padding: pxToRem($top) pxToRem($right);
+  }

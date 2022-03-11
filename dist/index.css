@@ -5,6 +5,17 @@
 /*!***************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/css/index.scss (1) ***!
   \***************************************************************************************************************************************************************************************/
+.cta-button {
+  padding: 0.3125rem 1.25rem;
+  border: 0.125rem solid white;
+  border-radius: 3.125rem;
+  color: white;
+  background-color: #d469a5;
+  font-weight: 700;
+  text-decoration: none; }
+  .cta-button:hover {
+    background-color: #fa75ad; }
+
 body {
   font-family: "Open Sans";
   background-color: #73b7e1;
@@ -12,24 +23,14 @@ body {
   margin: 0 auto; }
 
 .half-column {
-  display: inline-block;
+  padding: 3.125rem 0 0.625rem 1.25rem;
   width: 40%;
-  padding: 50px 0px 10px 20px; }
+  display: inline-block; }
   .half-column .right {
     float: right; }
-  .half-column .cta-button {
-    border: 2px solid white;
-    border-radius: 50px;
-    background-color: #d469a5;
-    color: white;
-    font-weight: 700;
-    padding: 5px 20px;
-    text-decoration: none; }
-    .half-column .cta-button:hover {
-      background-color: #fa75ad; }
 
 .landing-copy {
-  margin-left: 70px; }
+  margin-left: 4.375rem; }
   .landing-copy p {
     font-size: 1.3em;
     line-height: 1.4em; }
@@ -38,18 +39,18 @@ body {
     line-height: 1.2em; }
 
 nav {
-  text-align: center;
-  margin-top: 6em;
+  padding: 0rem 2.5rem;
   background-color: rgba(255, 255, 255, 0.5);
+  margin-top: 6em;
   height: 3.75em;
-  padding: 0px 40px; }
+  text-align: center; }
 
 .main-nav li {
-  display: inline-block;
-  padding: 5px 30px;
-  font-weight: 400;
+  padding: 0.3125rem 1.875rem;
+  margin: 0.625rem;
   font-size: 1.2em;
-  margin: 10px; }
+  font-weight: 400;
+  display: inline-block; }
   .main-nav li a {
     color: #472063;
     text-decoration: none; }
